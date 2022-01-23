@@ -1,0 +1,14 @@
+#navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+@media (min-width: 992px) {
+    #navbar-nav{
+        width: 50%;
+        margin: 0 auto;
+        justify-content: space-between
+    }
+}

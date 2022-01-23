@@ -1,0 +1,13 @@
+$height-carousel: calc(100vh - (40px + 8px + 8px));
+
+#carouselExampleIndicators {
+    height: $height-carousel;
+    margin-top: 56px;
+}
+.carousel-item {
+    height: $height-carousel;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}

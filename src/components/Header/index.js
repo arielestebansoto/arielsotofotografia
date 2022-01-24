@@ -16,13 +16,24 @@ export const NavBar = () => {
                 
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Casmientos</a>
+                            <del>
+                                <a className="nav-link active fw-lighter text-uppercase" aria-current="page" href="#">Casamientos</a>
+                            </del>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">XVs</a>
+                            <del>
+                                <a className="nav-link fw-lighter text-uppercase" href="#">XVs</a>
+                            </del>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Precios</a>
+                            <del>
+                                <a className="nav-link fw-lighter text-uppercase" href="#">Precios</a>
+                            </del>
+                        </li>
+                        <li className="nav-item">
+                            <del>
+                                <a className="nav-link fw-lighter text-uppercase" href="#">Hablemos</a>
+                            </del>
                         </li>
                     </ul>
                 </div>  

@@ -1,0 +1,22 @@
+.ImageGalery {
+    column-count: 1;
+    column-gap: 4px;
+}
+@media (min-width: 576px) {
+    .ImageGalery {
+        column-count: 2;
+    }   
+}
+@media (min-width: 992px) {
+    .ImageGalery {
+        column-count: 3;
+    }   
+}
+.ImageContainer {
+    display: inline-block;
+}
+.ImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

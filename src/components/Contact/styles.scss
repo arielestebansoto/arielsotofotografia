@@ -1,0 +1,15 @@
+.Contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+    .Contact ul {
+        flex-direction: row;
+    }
+}
+
+.Contact ul li{
+    list-style: none;
+}

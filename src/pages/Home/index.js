@@ -1,13 +1,19 @@
 import React from 'react'
 
 import { NavBar } from '../../components/Header'
-import { Carousel } from '../../components/Carousel'
+import { CarouselHome } from '../../components/CarouselHome'
+import { WebInDevelop } from '../../components/WebInDevelop'
+import { ImageGalery } from '../../components/ImageGalery'
+import { Contact } from '../../components/Contact'
 
 export const Home = () => {
     return(
         <>
             <NavBar />
-            <Carousel />
+            <WebInDevelop />
+            <CarouselHome />
+            <ImageGalery />
+            <Contact />
         </>
     )
 }
